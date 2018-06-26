@@ -1,0 +1,84 @@
+{
+  "itemConfig": [
+    {
+      "showName": "PlatMainCamera",
+      "action": "com.mmigroup.action.PLATFORMCAMERA",
+      "support": true,
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "adb_ata":"action.adb.ata.PlatMainCamera",
+        "picture_dir":"sdcard/CameraCal/",
+        "picture_name":"MainCameraCal.jpg",
+        "auto_takepicture_delay":2000,
+        "is_biaoding":true,
+        "cameraId": 0,
+        "support_cameraCheck": true
+      }
+    },
+    {
+      "showName": "PlatSubCamera",
+      "action": "com.mmigroup.action.PLATFORMCAMERA",
+      "support": true,
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "adb_ata":"action.adb.ata.PlatSubCamera",
+        "picture_dir":"sdcard/CameraCal/",
+        "picture_name":"SubCameraCal.jpg",
+        "auto_takepicture_delay":2000,
+        "is_biaoding":true,
+        "cameraId": 2,
+        "support_cameraCheck": true
+      }
+    },
+    {
+      "showName": "MainCamera",
+      "action": "com.mmigroup.action.PLATFORMCAMERA",
+      "support": true,
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "adb_ata":"action.adb.ata.MainCamera",
+        "picture_dir":"sdcard/fac_sources/Camera/",
+        "picture_name":"BackATA.jpg",
+        "debug_aftuning_minth":20000000,
+        "auto_takepicture_delay":2000,
+        "cameraId": 0,
+        "support_cameraCheck": true
+      }
+    },
+    {
+      "showName": "MainCamera2",
+      "action": "com.mmigroup.action.PLATFORMCAMERA",
+      "support": true,
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "adb_ata":"action.adb.ata.MainCamera2",
+        "picture_dir":"sdcard/fac_sources/Camera/",
+        "picture_name":"BackATA2.jpg",
+        "debug_aftuning_minth":20000000,
+        "auto_takepicture_delay":2000,
+        "cameraId": 2,
+        "support_cameraCheck": true
+      }
+    },
+    {
+      "showName": "FrontCamera",
+      "action": "com.mmigroup.action.PLATFORMCAMERA",
+      "support": true,
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "adb_ata":"action.adb.ata.FrontCamera",
+        "picture_dir":"sdcard/fac_sources/Camera/",
+        "picture_name":"FrontATA.jpg",
+        "auto_takepicture_delay":2000,
+        "debug_aftuning_minth":20000000,
+        "cameraId": 1,
+        "support_cameraCheck": true
+      }
+    }
+  ]
+}

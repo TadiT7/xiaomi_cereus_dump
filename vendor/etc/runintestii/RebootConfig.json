@@ -1,0 +1,38 @@
+{
+  "itemConfig":[
+
+	  {
+      "Action":"com.factory.runintestii.ddrtest",
+      "Support":true,
+      "IsForeGround":false,
+      "RunAlone":true,
+      "Name":"other_DDR",
+      "ParamOneCycle":1,
+	    "verify":true,
+      "ParameOneCycleTime":"240000",
+      "Parameter":{}
+    },
+    {
+      "Action":"com.factory.runintestii.fastbootreboot",
+      "Support":true,
+      "IsForeGround":false,
+      "RunAlone":true,
+      "Name":"other_fastbootreboot",
+      "ParamOneCycle":1,
+      "verify":true,
+      "ParameOneCycleTime":"60000",
+      "Parameter":{}
+    },
+    {
+      "Action":"com.factory.runintestii.ddrscreen",
+      "Support":true,
+      "IsForeGround":false,
+      "RunAlone":true,
+      "Name":"other_DDRScreen",
+      "ParamOneCycle":1,
+      "verify":true,
+      "ParameOneCycleTime":"60000",
+      "Parameter":{}
+    }
+  ]
+}

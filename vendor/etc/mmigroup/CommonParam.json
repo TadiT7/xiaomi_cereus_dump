@@ -1,0 +1,429 @@
+{
+  "S98507AA1": {
+  },
+  "S98507BA1": {
+    "call": {
+      "com.mmigroup.radiosupport.CDMA": false,
+      "com.mmigroup.radiosupport.TDCDMA": false
+    }
+  },
+  "S98507BB1": {
+    "call": {
+      "com.mmigroup.radiosupport.CDMA": false,
+      "com.mmigroup.radiosupport.TDCDMA": false
+    }
+  },
+  "S98507CA1": {
+    "call": {
+      "com.mmigroup.radiosupport.CDMA": false,
+      "com.mmigroup.radiosupport.TDCDMA": false
+    }
+  },
+  "S98506AA1": {
+  },
+  "S98506BA1": {
+    "call": {
+      "com.mmigroup.radiosupport.CDMA": false,
+      "com.mmigroup.radiosupport.TDCDMA": false
+    }
+  },
+  "S98506BB1": {
+    "call": {
+      "com.mmigroup.radiosupport.CDMA": false,
+      "com.mmigroup.radiosupport.TDCDMA": false
+    }
+  },
+  "S98506CA1": {
+    "call": {
+      "com.mmigroup.radiosupport.CDMA": false,
+      "com.mmigroup.radiosupport.TDCDMA": false
+    }
+  },
+  "S98506DA1": {
+    "call": {
+      "com.mmigroup.radiosupport.CDMA": false,
+      "com.mmigroup.radiosupport.TDCDMA": false
+    },
+    "itemConfig": {
+      "fingerprint": {
+        "support": true
+      }
+    }
+  },
+  "S98506DB1": {
+    "call": {
+      "com.mmigroup.radiosupport.CDMA": false,
+      "com.mmigroup.radiosupport.TDCDMA": false
+    },
+    "itemConfig": {
+      "fingerprint": {
+        "support": true
+      }
+    }
+  },
+  "S98506DD1": {
+    "call": {
+      "com.mmigroup.radiosupport.CDMA": false,
+      "com.mmigroup.radiosupport.TDCDMA": false
+    },
+    "itemConfig": {
+      "fingerprint": {
+        "support": true
+      }
+    }
+  },
+  "S98506DC1": {
+    "call": {
+      "com.mmigroup.radiosupport.CDMA": false,
+      "com.mmigroup.radiosupport.TDCDMA": false
+    },
+    "itemConfig": {
+      "fingerprint": {
+        "support": true
+      }
+    }
+  },
+  "S98506": {
+    "itemConfig": {
+      "fingerprint": {
+        "support": false
+      },
+      "PlatCameraZoom": {
+        "support": false
+      },
+      "PlatCameraSwitch": {
+        "support": false
+      },
+      "PlatSubCamera": {
+        "support": false
+      },
+      "MainCamera2": {
+        "support": false
+      }
+    }
+  },
+  "S98507": {
+  },
+  "call": {
+    "com.mmigroup.radiosupport.GSM": true,
+    "com.mmigroup.radiosupport.CDMA": true,
+    "com.mmigroup.radiosupport.TDCDMA": true,
+    "com.mmigroup.radiosupport.WCDMA": true,
+    "com.mmigroup.radiosupport.TDD": false,
+    "com.mmigroup.radiosupport.FDD": false,
+    "com.mmigroup.radiosupport.LTE": true
+  },
+  "mmigroupConfig": {
+    "com.mmigroup.support.statusbar": true,
+    "MMIGroupFactory_layout_name": "mainview_s98506",
+    "isMiui": true
+  },
+  "systemConfig": {
+    "buildNumber": true,
+    "basebandVersion": true,
+    "kernelVersion": true,
+    "SW_Ver": true,
+    "Modem": true,
+    "MEID": true,
+    "SN": true,
+    "PhoneSN": true,
+    "EFS": false,
+    "FactoryTestMode": false,
+    "BoardID": true,
+    "RPMB_provisioned": true,
+    "Secureboot": true,
+    "MMIGroupVersion": true,
+    "FactoryInterfaceVersion": true,
+    "FactoryInterfaceHALVersion": true,
+    "DualCameraCalibration": false,
+    "CameraEfuseID": true
+  },
+  "itemConfig": {
+    "MainMicToHeadPhone": {
+      "support": true
+    },
+    "MIMainMicToHeadphone": {
+      "support": true
+    },
+    "MISubMicToHeadphone": {
+      "support": true
+    },
+    "HsMicToReceiver": {
+      "support": true
+    },
+    "MainMicToReceiver": {
+      "support": true
+    },
+    "MainMicToSpeaker": {
+      "support": true
+    },
+    "HsMicToSpeaker": {
+      "support": true
+    },
+    "SubMicToReceiver": {
+      "support": true
+    },
+    "SubMicToHeadPhone": {
+      "support": true
+    },
+    "HsMicToSpeakerLeft": {
+      "support": false
+    },
+    "HsMicToSpeakerRight": {
+      "support": false
+    },
+    "Speaker": {
+      "support": true
+    },
+    "Receiver": {
+      "support": true
+    },
+    "FM": {
+      "support": true
+    },
+    "HeadSet": {
+      "support": true
+    },
+    "mtkSpeaker": {
+      "support": true
+    },
+    "mtkRecevier": {
+      "support": true
+    },
+    "mtkHeadphone": {
+      "support": true
+    },
+    "FrontCamera": {
+      "support": true
+    },
+    "FrontCamera2": {
+      "support": false
+    },
+    "MainCamera": {
+      "support": true
+    },
+    "Flashlight": {
+      "support": true
+    },
+    "VersionInfo": {
+      "support": true
+    },
+    "KeyPad": {
+      "support": true
+    },
+    "KeyPadAndVibrator": {
+      "support": true
+    },
+    "TouchPal": {
+      "support": true
+    },
+    "TpOpenShort": {
+      "support": true
+    },
+    "LCD": {
+      "support": true
+    },
+    "LCD_R": {
+      "support": true
+    },
+    "LCD_G": {
+      "support": true
+    },
+    "LCD_B": {
+      "support": true
+    },
+    "LCD_W": {
+      "support": true
+    },
+    "LCD_BL": {
+      "support": true
+    },
+    "Backlight": {
+      "support": true
+    },
+    "Vibrator": {
+      "support": true
+    },
+    "OTG": {
+      "support": true
+    },
+    "RTC": {
+      "support": true
+    },
+    "LED": {
+      "support": true
+    },
+    "LED_R": {
+      "support": true
+    },
+    "LED_G": {
+      "support": true
+    },
+    "LED_B": {
+      "support": true
+    },
+    "LED_RGB": {
+      "support": true
+    },
+    "Accelerometer": {
+      "support": true
+    },
+    "Accelerometer_C": {
+      "support": true
+    },
+    "Accelerometer_MMI": {
+      "support": true
+    },
+    "Gyroscope": {
+      "support": false
+    },
+    "Gyroscope_C": {
+      "support": false
+    },
+    "Gyroscope_MMI": {
+      "support": false
+    },
+    "Proximity": {
+      "support": true
+    },
+    "Proximity_st": {
+      "support": true
+    },
+    "Proximity_C": {
+      "support": true
+    },
+    "Magnetic": {
+      "support": true
+    },
+    "Optical": {
+      "support": true
+    },
+    "Optical_c": {
+      "support": true
+    },
+    "Hall": {
+      "support": false
+    },
+    "fingerprint": {
+      "support": true
+    },
+    "SMARTPA": {
+      "support": false
+    },
+    "Infrared": {
+      "support": false
+    },
+    "SdCard": {
+      "support": true
+    },
+    "MainSIMCard": {
+      "support": true
+    },
+    "SubSIMCard": {
+      "support": true
+    },
+    "Wlan": {
+      "support": true
+    },
+    "WlanAP": {
+      "support": true
+    },
+    "WlanAddress": {
+      "support": true
+    },
+    "Bluetooth": {
+      "support": true
+    },
+    "BluetoothAddress": {
+      "support": true
+    },
+    "BluetoothDevice": {
+      "support": true
+    },
+    "GPS": {
+      "support": true
+    },
+    "Charge": {
+      "support": true
+    },
+    "Battery": {
+      "support": true
+    },
+    "FrontFlashLight": {
+      "support": false
+    },
+    "Pressure": {
+      "support": false
+    },
+    "CALL112": {
+      "support": false
+    },
+    "KeyPadLight": {
+      "support": false
+    },
+    "MainMic2ToHeadPhone": {
+      "support": true
+    },
+    "SubMic2ToHeadPhone": {
+      "support": true
+    },
+    "MainMic2ToSpeaker": {
+      "support": false
+    },
+    "MainMic2ToReceiver": {
+      "support": true
+    },
+    "SubMicToSpeaker": {
+      "support": true
+    },
+    "Orientation": {
+      "support": false
+    },
+    "MainCamera2": {
+      "support": true
+    },
+    "Flashlight2": {
+      "support": true
+    },
+    "DualSIMCard": {
+      "support": true
+    },
+    "PlatCameraZoom": {
+      "support": false
+    },
+    "PlatMainCamera": {
+      "support": true
+    },
+    "PlatSubCamera": {
+      "support": true
+    },
+    "PlatFrontCamera": {
+      "support": true
+    },
+    "PlatCameraSwitch": {
+      "support": true
+    },
+    "LightTEST": {
+      "support": true
+    },
+    "SpeakerCali": {
+      "support": true
+    },
+    "ASDeviceInfo": {
+      "support": true
+    },
+    "ASFlashLife": {
+      "support": true
+    },
+    "ASLCDActivity": {
+      "support": true
+    },
+    "NFC": {
+      "support": false
+    },
+    "TouchPanel": {
+      "support": true
+    }
+  }
+}
+

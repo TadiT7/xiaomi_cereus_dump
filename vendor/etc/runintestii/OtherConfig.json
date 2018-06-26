@@ -1,0 +1,46 @@
+{
+  "CommonConfig": [
+  {
+    "Action":"rebootCycleNum",
+    "Config":1
+  },
+    {
+      "Action":"softwareCycleNum",
+      "Config":8
+    },
+    {
+      "Action":"cameraCycleNum",
+      "Config":1
+    },
+    {
+      "Action":"otherCycleNum",
+      "Config":1
+    }
+    ],
+    "CommonConstant":[
+    {
+      "RunInConfigPath":"vendor/etc",
+      "ReortPath":"data/anr",
+      "LogPath":"data/anr",
+      "CpuFilePath":"vendor/bin",
+      "DDRFilePath":"vendor/bin"
+    },
+    {
+      "HighBatterLevel":80,
+      "LowBatterLevel":60,
+      "RunInStartBatterLevel":40
+    }
+  ],
+  "itemConfig":[
+	{
+      "Action":"com.factory.runintestii.autoreboot",
+      "Support":true,
+      "IsForeGround":false,
+      "RunAlone":true,
+      "Name":"reboot_Reboot",
+      "ParamOneCycle":1,
+      "ParameOneCycleTime":"",
+      "Parameter":{}
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+persist.mtk_ct_volte_support=1
+ro.mtk_usb_cba_support=0
+persist.operator.optr=OP09
+persist.operator.spec=SPEC0212
+persist.operator.seg=SEGC
+ro.operator.optr=OP09
+ro.operator.spec=SPEC0212
+ro.operator.seg=SEGC
+ro.com.android.mobiledata=true
+persist.radio.mtk_dsbp_support=1
+ro.mtk_md_sbp_custom_value=0
+ro.mtk_ct4greg_app=1
+ro.mtk_devreg_app=1
+ro.mtk_system_update_support=1

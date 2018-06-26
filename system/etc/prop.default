@@ -1,0 +1,20 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.miui.has_cust_partition=true
+ro.secureboot.devicelock=1
+ro.factory_mode=0
+ro.secure=1
+security.perf_harden=1
+ro.adb.secure=1
+ro.allow.mock.location=0
+ro.wt_final_release=1
+ro.debuggable=0
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Thu Jun 21 00:31:42 CST 2018
+ro.bootimage.build.date.utc=1529512302
+ro.bootimage.build.fingerprint=xiaomi/cereus/cereus:8.1.0/O11019/8.6.21:user/release-keys
+persist.sys.usb.config=none
+

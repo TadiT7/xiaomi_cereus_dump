@@ -1,0 +1,50 @@
+{
+  "localId": "2e81dde6-ed42-4fb2-b0d5-e303ef4d902a",
+  "onlineId": null,
+  "assemblyId": null,
+  "productId": null,
+  "hash": "15ee106b2aa4a71d66eea79c9bc1e821369b93e4",
+  "platform": 8,
+  "size": 750342,
+  "updatedTime": 0,
+  "version": "1.0",
+  "authors": {
+    "fallback": "MIUI"
+  },
+  "designers": {
+    "fallback": "MIUI"
+  },
+  "titles": {
+    "zh_TW": "無界",
+    "bo_CN": "མཚམས་མེད།",
+    "en_US": "Limitless",
+    "ug_CN": "چەكسىز",
+    "zh_CN": "无界"
+  },
+  "descriptions": {},
+  "builtInThumbnails": {
+    "en_US": [],
+    "fallback": []
+  },
+  "builtInPreviews": {
+    "en_US": [],
+    "fallback": []
+  },
+  "thumbnails": [],
+  "previews": [],
+  "parentResources": [
+    {
+      "localId": "f2ba0de9-d970-4e1a-945d-227381adee83",
+      "resourceCode": "theme",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    }
+  ],
+  "subResources": [],
+  "extraMeta": {},
+  "metaPath": null,
+  "contentPath": null,
+  "rightsPath": null,
+  "screenRatio": "18:9"
+}

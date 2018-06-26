@@ -1,0 +1,6 @@
+ro.product.wt.boardid=S98507CA1
+ro.miui.support_fingerprint=true
+ro.build.display.wtid.miui=SW_S98507CA1_V047_M13_XM_C3D_USR_MP
+ro.build.display.wtid.ato=SW_S98507CA1_V030_M13_XM_C3D_USRD_ATO
+ro.product.subproject=S98507CA1
+ro.product.cert=M1804C3DI

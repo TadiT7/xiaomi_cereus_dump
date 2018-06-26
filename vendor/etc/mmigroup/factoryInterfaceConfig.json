@@ -1,0 +1,136 @@
+{
+    "sensor": {
+
+    },
+    "batteryinfo": {
+        "health": "/sys/class/power_supply/battery/health",
+        "status": "/sys/class/power_supply/battery/status",
+        "voltage_now": "/sys/class/power_supply/battery/batt_vol",
+        "capacity": "/sys/class/power_supply/battery/capacity",
+        "current_now": "/sys/class/power_supply/battery/current_now",
+        "temp": "/sys/class/power_supply/battery/batt_temp",
+        "ac_online": "/sys/class/power_supply/ac/online",
+        "usb_online": "/sys/class/power_supply/usb/online",
+        "impedance": "/sys/class/power_supply/battery/resistance_id"
+    },
+    "ata": {
+
+    },
+    "flashLight": {
+        "hot": {
+            "file": "/sys/class/leds/led:flash_0/brightness",
+            "open": "1",
+            "close": "0",
+            "needSwitch": false
+        },
+        "cold": {
+            "file": "/sys/class/leds/flashlight/brightness",
+            "open": "1",
+            "close": "0",
+            "needSwitch": false
+        },
+        "switch": {
+            "file": "/sys/class/leds/led:switch/brightness",
+            "open": "1",
+            "close": "0"
+        },
+        "front": {
+            "file": "/sys/class/leds/led:flash_0/brightness",
+            "open": "1",
+            "close": "0",
+            "needSwitch": false
+        }
+
+    },
+    "touchext": {
+        "input_dir": "/vendor/etc/",
+        "output_dir": "/sdcard/",
+        "libopenshort_file": "/vendor/lib64/libopenshort.so",
+        "gt915l_openshort_device": "/proc/gmnode00000100",
+        "ctp_openshort_proc": "/proc/touchscreen/ctp_openshort_test",
+        "S98506": {
+            "libopenshort_file": "/vendor/lib/libopenshort.so",
+            "gt915l_openshort_device": "/sys/class/touchscreen/gmnode"
+        },
+        "S98507": {
+            "libopenshort_file": "/vendor/lib/libopenshort.so",
+            "gt915l_openshort_device": "/sys/class/touchscreen/gmnode"
+        }
+    },
+    "hardwareinfo": {
+        "cid_tab": {
+            "513758534142": "KMQ7X000SA-B315-Samsung",
+            "513758534142": "KMQ7X000SA-B315-Samsung",
+            "513732534d42": "KMQ72000SM_B316-Samsung",
+            "514e31534d42": "KMQN1000SM-B316-Samsung",
+            "523758314d42": "KMR7X0001M-B511-Samsung",
+            "513858534142": "KMQ8X000SA-B414-Samsung",
+            "513832534d42": "KMQ82000SA-B418-Samsung",
+            "514531334d42": "KMQE10013M-B318-Samsung",
+            "523832314d42": "KMR820001M-B609-Samsung",
+            "523331314d42": "KMR310001M-B611-Samsung",
+            "523331424d42": "KMR31000BM-B611-Samsung",
+            "513231334D42": "KMQ210013M-B615-Samsung",
+            "514536334d42": "KMQE60013M-B318-Samsung",
+            "474436424d42": "KMGD6001BM-B421-Samsung",
+            "475836424d42": "KMGX6001BM-B514-Samsung",
+            "524836344d42": "KMRH60014M-B614-Samsung",
+            "524836344142": "KMRH60014A-B614-Samsung",
+            "514436334D42": "KMQD60013M-B318-Samsung",
+
+            "483847316505": "H9TQ64A8GTMCUR-KUM-Hynix",
+            "483847316505": "H9TQ64ABJTMCUR-KUM-Hynix",
+            "483847326404": "H9TQ65A8GTMCUR-Hynix",
+            "484147326505": "H9TQ17A8GTMCUR-Hynix",
+            "484147346132": "H9TQ17ABJTCCUR-Hynix",
+            "484147326505": "H9TQ17ABJTMCUR-Hynix",
+            "484147326505": "H9TQ17ADFTMCUR-Hynix",
+            "484247346132": "H9TQ26ADFTACUR-Hynix",
+            "484247346132": "H9TQ26ADFTBCUR-Hynix",
+            "484347386134": "H9TQ27ADFTMCUR-Hynix",
+
+            "50314a39354b": "MT29TZZZ8D5BKFAH-125-Micron",
+            "51334a393652": "MT29TZZZ5D6EKFRL-107-Micron",
+            "52314a39364e": "MT29TZZZ5D6YKFAH-125-Micron",
+            "53304a394237": "MT29TZZZ7D7DKLAH-107-Micron",
+            "53304a394137": "MT29TZZZ5D7DKFRL-107-Micron",
+
+            "303038473730": "TYD0GH121661RA-Toshiba",
+            "303136473730": "TYE0HH221657RA-Toshiba",
+            "303136473330": "TYE0HH221668RA-Toshiba",
+            "303136473332": "TYE0HH231659RA-Toshiba",
+            "303332473332": "TYE0IH231658RA-Toshiba",
+
+            "563130303038": "8EMCP08_EL3CV100_C06-Kingston"
+        },
+        "fw_version_file": "/sys/class/mmc_host/mmc0/mmc0:0001/fw_version",
+        "cid_file": "/sys/class/mmc_host/mmc0/mmc0:0001/cid",
+        "serial_num_file": "/proc/serial_num",
+        "emmcid_prop": "ro.serialno",
+        "chip_id": "ro.boot.chipid",
+        "tp_lockdown_node": "/proc/touchscreen/lockdown_info",
+        "sec_dat_node": "/proc/secboot_fuse_reg",
+        "S98506": {
+
+        },
+        "S98507": {
+        }
+
+    },
+    "driver_node": {
+        "fuse_reg": "/proc/secboot_fuse_reg",
+        "sim_tray": "/proc/sd_tray_gpio_value",
+        "rtc_node": "/sys/devices/platform/mt-rtc/rtc/rtc0/dis_rtc"
+    },
+    "light": {
+
+    },
+    "smartpa": {
+        "spk_cali": "/sys/devices/system/opsl-cali/opsl-cali0/pass",
+        "spk_Impedance": "/persist/crus_spk_cali_data.txt"
+    },
+    "systemInfo": {
+        "camera_flag": "/data/misc/camera/dualcam_flag.bin"
+    }
+
+}
